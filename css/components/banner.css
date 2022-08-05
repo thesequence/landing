@@ -1,0 +1,24 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  height: 80vh;
+  color: white;
+  background-size: cover;
+}
+
+.banner-content {
+  text-align: center;
+}
+.banner-content p {
+  font-size: 1.5rem;
+  color: rgb(255 224 234);
+  text-shadow: 2px 2px 2px rgb(0 0 0);
+}
+
+.banner-content h1 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 80%);
+}
